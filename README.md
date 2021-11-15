@@ -26,3 +26,5 @@ eslint检测代码
 
 ## 用vite支持esm构建，效率更高
 加入typescript，类型检测
+
+## 使用react-query和useContext做数据管理

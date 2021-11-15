@@ -2,7 +2,7 @@
 
 从零开始搭 vite + reactjs 项目
 
-vite + reactjs + typescript + mobx + eslint
+vite + reactjs + typescript + react-query + eslint
 
 ## vscode 插件配置
 
@@ -102,30 +102,20 @@ ReactDOM.render(
 )
 ```
 
-## 全局 store 注入
+## 全局 使用query-react管理服务端数据
 
 ```js
-import { makeAutoObservable } from 'mobx'
 
-class GlobalStore {
-	 constructor() {
-	 makeAutoObservable(this)
- }
- count = 0
- add = () => {
- 	this.count += 1
- }
- los = () => {
- 	this.count -= 1
- }
- get compGet()
- 	return this.count * 2
- }
-}
-export default new GlobalStore()
+ReactDOM.render(
+  <React.StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <HashRouter>{renderRoutes(routes)}</HashRouter>
+    </QueryClientProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+)
+
 ```
-
-其他地方可以通过`const globalStore = useStores('globalStore')`获取
 
 ## vite 插件配置
 
