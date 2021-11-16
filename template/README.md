@@ -24,7 +24,7 @@ vite + reactjs + typescript + react-query + eslint
 ## 初始化 vite 工程
 
 yarn create vite
-框架名：react-boat
+框架名：react-query-boat
 选择 framework: react
 选择 varaint: react-ts
 会生成 react+typescript 基本脚手架
