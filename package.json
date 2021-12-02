@@ -43,7 +43,6 @@
     ]
   },
   "dependencies": {
-    "@loadable/component": "^5.15.0",
     "antd": "^4.16.13",
     "axios": "^0.23.0",
     "classnames": "^2.3.1",
