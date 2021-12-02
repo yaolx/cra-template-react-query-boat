@@ -7,7 +7,7 @@
     "allowJs": true,
     "target": "ESNext",
     "module": "ESNext",
-    "strict": true,
+    "strict": false,
     "importHelpers": true,
     "noImplicitAny": false,
     // 模块的解析策略

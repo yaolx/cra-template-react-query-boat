@@ -17,6 +17,7 @@ module.exports = {
     indent: ['off', 2],
     'no-var': 'error',
     'no-undef': 'off',
+    'react/prop-types': 0,
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/ban-types': 'error',

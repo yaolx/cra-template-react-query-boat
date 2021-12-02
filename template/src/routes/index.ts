@@ -1,10 +1,11 @@
-import Home from '@/page/home'
+import { LazyLoader } from '@/components/LazyLoader'
 import { RouteConfig } from 'react-router-config'
+
 const routesConfig: RouteConfig[] = [
   {
     path: '/',
     exact: true,
-    component: Home
+    component: LazyLoader('page/home')
   }
 ]
 
