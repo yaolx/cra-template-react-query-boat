@@ -1,9 +1,9 @@
 {
-  "name": "cra-template-react-boat",
-  "version": "0.0.6",
+  "name": "cra-template-react-query-boat",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaolx/cra-template-react-boat.git"
+    "url": "https://github.com/yaolx/cra-template-react-query-boat.git"
   },
   "author": "yaolx",
   "main": "template.json",

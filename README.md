@@ -1,4 +1,4 @@
-﻿# cra-template-react-boat
+﻿# cra-template-react-query-boat
 
 基于vite构建的react + react-query + typescript 脚手架
 
