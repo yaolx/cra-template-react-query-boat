@@ -1,4 +1,4 @@
-import { LazyLoader } from '@/components/lazyLoader'
+import { LazyLoader } from '@/components/lazyImport'
 import { RouteConfig } from 'react-router-config'
 
 const routesConfig: RouteConfig[] = [
