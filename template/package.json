@@ -1,6 +1,6 @@
 {
-  "name": "cra-template-react-boat",
-  "version": "0.0.1",
+  "name": "cra-template-react-query-boat",
+  "version": "0.0.2",
   "license": "MIT",
   "engines": {
     "yarn": ">=1.22.10",

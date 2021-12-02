@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button } from 'antd'
 import useUser from '@/hooks/useUser'
-import { LazyLoader } from '@/components/lazyImport'
+import { LazyLoader } from '@/components/lazy-loader'
 import styles from './style/index.module.less'
 import logo from './logo.svg'
 const LoginModal = LazyLoader('page/modal')
